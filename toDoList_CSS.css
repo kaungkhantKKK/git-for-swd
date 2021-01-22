@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+body{
+    background-image: url('https://c0.wallpaperflare.com/preview/756/838/409/note-notepad-write-notebook.jpg') ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.main-box{
+    margin: 20px auto;
+    width: 40%;
+    background-color: #cabbe999;
+    border-radius: 20px;
+}
+.title{
+    width: fit-content;
+    padding: 5px 10px;
+    margin: 10px auto;
+    color: #000000;
+    text-decoration: underline;
+}
+.input-box{
+    padding: 10px 20px;
+}
+.text-box{
+    width: 65%;
+    border: 1px solid #cabbe9;
+    border-radius: 10px;
+    padding: 5px 3px;
+    margin-left: 10%;
+}
+.inside-text{
+    max-width: 310px;
+}
+.add-button{
+    height: 30px;
+    width: 30px;
+    border: 1px solid #cabbe9;
+    border-radius: 15px;
+    padding: 5px 3px;
+}
+.add-button:hover{
+    color: #6bd8f3;
+}
+.btn{
+    width: 30px;
+    height: 30px;
+    border: 1px solid #cabbe9;
+    border-radius: 15px;
+    padding: 5px 3px;
+}
+.list-box{
+    padding: 10px 20px;
+    background-color: #fdfdfd99;
+    border: 1px #fdfdfd99;
+    border-radius: 20px;
+}
+.list{
+    max-width:90%;
+    width: 55%;
+    margin: auto 5px;
+}
+.list-style{
+    list-style-type: none;
+    width: 310px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    border: 1px solid #ffcef399;
+    border-radius: 20px;
+    background-color: #ffcef399;
+}
